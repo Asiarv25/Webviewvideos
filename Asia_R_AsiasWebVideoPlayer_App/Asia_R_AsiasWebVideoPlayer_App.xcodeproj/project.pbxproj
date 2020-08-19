@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7788003C24EDA4E200A5FB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788003B24EDA4E200A5FB0D /* AppDelegate.swift */; };
+		7788003E24EDA4E200A5FB0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788003D24EDA4E200A5FB0D /* SceneDelegate.swift */; };
+		7788004024EDA4E200A5FB0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788003F24EDA4E200A5FB0D /* ViewController.swift */; };
+		7788004324EDA4E200A5FB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7788004124EDA4E200A5FB0D /* Main.storyboard */; };
+		7788004624EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7788004424EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld */; };
+		7788004824EDA4E300A5FB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7788004724EDA4E300A5FB0D /* Assets.xcassets */; };
+		7788004B24EDA4E300A5FB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7788004924EDA4E300A5FB0D /* LaunchScreen.storyboard */; };
+		7788005624EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788005524EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.swift */; };
+		7788006124EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788006024EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7788005224EDA4E300A5FB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7788003024EDA4E200A5FB0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7788003724EDA4E200A5FB0D;
+			remoteInfo = Asia_R_AsiasWebVideoPlayer_App;
+		};
+		7788005D24EDA4E300A5FB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7788003024EDA4E200A5FB0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7788003724EDA4E200A5FB0D;
+			remoteInfo = Asia_R_AsiasWebVideoPlayer_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7788003824EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asia_R_AsiasWebVideoPlayer_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788003B24EDA4E200A5FB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7788003D24EDA4E200A5FB0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7788003F24EDA4E200A5FB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7788004224EDA4E200A5FB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7788004524EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Asia_R_AsiasWebVideoPlayer_App.xcdatamodel; sourceTree = "<group>"; };
+		7788004724EDA4E300A5FB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7788004A24EDA4E300A5FB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7788004C24EDA4E300A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788005124EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asia_R_AsiasWebVideoPlayer_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788005524EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_R_AsiasWebVideoPlayer_AppTests.swift; sourceTree = "<group>"; };
+		7788005724EDA4E300A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788005C24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asia_R_AsiasWebVideoPlayer_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788006024EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_R_AsiasWebVideoPlayer_AppUITests.swift; sourceTree = "<group>"; };
+		7788006224EDA4E300A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7788003524EDA4E200A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788004E24EDA4E300A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788005924EDA4E300A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7788002F24EDA4E200A5FB0D = {
+			isa = PBXGroup;
+			children = (
+				7788003A24EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */,
+				7788005424EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests */,
+				7788005F24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests */,
+				7788003924EDA4E200A5FB0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7788003924EDA4E200A5FB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7788003824EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.app */,
+				7788005124EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.xctest */,
+				7788005C24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7788003A24EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */ = {
+			isa = PBXGroup;
+			children = (
+				7788003B24EDA4E200A5FB0D /* AppDelegate.swift */,
+				7788003D24EDA4E200A5FB0D /* SceneDelegate.swift */,
+				7788003F24EDA4E200A5FB0D /* ViewController.swift */,
+				7788004124EDA4E200A5FB0D /* Main.storyboard */,
+				7788004724EDA4E300A5FB0D /* Assets.xcassets */,
+				7788004924EDA4E300A5FB0D /* LaunchScreen.storyboard */,
+				7788004C24EDA4E300A5FB0D /* Info.plist */,
+				7788004424EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld */,
+			);
+			path = Asia_R_AsiasWebVideoPlayer_App;
+			sourceTree = "<group>";
+		};
+		7788005424EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7788005524EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.swift */,
+				7788005724EDA4E300A5FB0D /* Info.plist */,
+			);
+			path = Asia_R_AsiasWebVideoPlayer_AppTests;
+			sourceTree = "<group>";
+		};
+		7788005F24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7788006024EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.swift */,
+				7788006224EDA4E300A5FB0D /* Info.plist */,
+			);
+			path = Asia_R_AsiasWebVideoPlayer_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7788003724EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788006524EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_App" */;
+			buildPhases = (
+				7788003424EDA4E200A5FB0D /* Sources */,
+				7788003524EDA4E200A5FB0D /* Frameworks */,
+				7788003624EDA4E200A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asia_R_AsiasWebVideoPlayer_App;
+			productName = Asia_R_AsiasWebVideoPlayer_App;
+			productReference = 7788003824EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7788005024EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788006824EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_AppTests" */;
+			buildPhases = (
+				7788004D24EDA4E300A5FB0D /* Sources */,
+				7788004E24EDA4E300A5FB0D /* Frameworks */,
+				7788004F24EDA4E300A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7788005324EDA4E300A5FB0D /* PBXTargetDependency */,
+			);
+			name = Asia_R_AsiasWebVideoPlayer_AppTests;
+			productName = Asia_R_AsiasWebVideoPlayer_AppTests;
+			productReference = 7788005124EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7788005B24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788006B24EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_AppUITests" */;
+			buildPhases = (
+				7788005824EDA4E300A5FB0D /* Sources */,
+				7788005924EDA4E300A5FB0D /* Frameworks */,
+				7788005A24EDA4E300A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7788005E24EDA4E300A5FB0D /* PBXTargetDependency */,
+			);
+			name = Asia_R_AsiasWebVideoPlayer_AppUITests;
+			productName = Asia_R_AsiasWebVideoPlayer_AppUITests;
+			productReference = 7788005C24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7788003024EDA4E200A5FB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Asia Reid";
+				TargetAttributes = {
+					7788003724EDA4E200A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7788005024EDA4E300A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7788003724EDA4E200A5FB0D;
+					};
+					7788005B24EDA4E300A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7788003724EDA4E200A5FB0D;
+					};
+				};
+			};
+			buildConfigurationList = 7788003324EDA4E200A5FB0D /* Build configuration list for PBXProject "Asia_R_AsiasWebVideoPlayer_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7788002F24EDA4E200A5FB0D;
+			productRefGroup = 7788003924EDA4E200A5FB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7788003724EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */,
+				7788005024EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests */,
+				7788005B24EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7788003624EDA4E200A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788004B24EDA4E300A5FB0D /* LaunchScreen.storyboard in Resources */,
+				7788004824EDA4E300A5FB0D /* Assets.xcassets in Resources */,
+				7788004324EDA4E200A5FB0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788004F24EDA4E300A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788005A24EDA4E300A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7788003424EDA4E200A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788004624EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld in Sources */,
+				7788004024EDA4E200A5FB0D /* ViewController.swift in Sources */,
+				7788003C24EDA4E200A5FB0D /* AppDelegate.swift in Sources */,
+				7788003E24EDA4E200A5FB0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788004D24EDA4E300A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788005624EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788005824EDA4E300A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788006124EDA4E300A5FB0D /* Asia_R_AsiasWebVideoPlayer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7788005324EDA4E300A5FB0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7788003724EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */;
+			targetProxy = 7788005224EDA4E300A5FB0D /* PBXContainerItemProxy */;
+		};
+		7788005E24EDA4E300A5FB0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7788003724EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App */;
+			targetProxy = 7788005D24EDA4E300A5FB0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7788004124EDA4E200A5FB0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7788004224EDA4E200A5FB0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7788004924EDA4E300A5FB0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7788004A24EDA4E300A5FB0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7788006324EDA4E300A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7788006424EDA4E300A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7788006624EDA4E300A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7788006724EDA4E300A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7788006924EDA4E300A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia_R_AsiasWebVideoPlayer_App.app/Asia_R_AsiasWebVideoPlayer_App";
+			};
+			name = Debug;
+		};
+		7788006A24EDA4E300A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia_R_AsiasWebVideoPlayer_App.app/Asia_R_AsiasWebVideoPlayer_App";
+			};
+			name = Release;
+		};
+		7788006C24EDA4E300A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asia_R_AsiasWebVideoPlayer_App;
+			};
+			name = Debug;
+		};
+		7788006D24EDA4E300A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasWebVideoPlayer_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasWebVideoPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asia_R_AsiasWebVideoPlayer_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7788003324EDA4E200A5FB0D /* Build configuration list for PBXProject "Asia_R_AsiasWebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788006324EDA4E300A5FB0D /* Debug */,
+				7788006424EDA4E300A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788006524EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788006624EDA4E300A5FB0D /* Debug */,
+				7788006724EDA4E300A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788006824EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788006924EDA4E300A5FB0D /* Debug */,
+				7788006A24EDA4E300A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788006B24EDA4E300A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasWebVideoPlayer_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788006C24EDA4E300A5FB0D /* Debug */,
+				7788006D24EDA4E300A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7788004424EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7788004524EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodel */,
+			);
+			currentVersion = 7788004524EDA4E200A5FB0D /* Asia_R_AsiasWebVideoPlayer_App.xcdatamodel */;
+			path = Asia_R_AsiasWebVideoPlayer_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7788003024EDA4E200A5FB0D /* Project object */;
+}
